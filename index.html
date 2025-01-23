@@ -1,68 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cloning exercise</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@flaticon/font@3.0.0/font/flaticon.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>LUGX CLONE</title>
 </head>
-<body class="bg-gray-100">
-  
-  <div class="bg-cover-500 rounded-b-[15%] text-white " style="background-image: url('/cloning/banner-bg\ \(3\).jpg');">
-    <div class="flex items-center justify-between mx-auto w-[92%]">
-      <div class="flex items-center space-x-1"> <img src="logo.png" alt=""> </div>
-      <nav class="flex space-x-9 ml-auto">
-        <a href="#" class="hover:border hover:border-blue-500 hover:rounded-lg transition duration-300 p-2">Home</a>
-        <a href="#" class="hover:border hover:border-blue-500 hover:rounded-lg transition duration-300 p-2">Our shop</a>
-        <a href="#" class="hover:border hover:border-blue-500 hover:rounded-lg transition duration-300 p-2">Product details</a>
-        <a href="#" class="hover:border hover:border-blue-500 hover:rounded-lg transition duration-300 p-2">Contact us</a>
-        <a href="#" class="bg-red-500 border-red-20 hover:border hover:border-blue-500 hover:rounded-lg transition duration-300 p-2">Sign in</a>
-      </nav>
-    </div>
-    <div class="flex  justify-between  p-6 mt-14 mx-auto w-[92%]">
-        <div class="flex flex-col ... gap-6">
-        <p>Welcome to Lugx</p>
-        <h1 class="text-white text-4xl font-bold">Best gaming site Ever</h1>
+<body class="m-2">
+    <!--Header and Navigation-->
+    <div class="bg-cover rounded-b-[15%] max-h-full pb-48" style="background-image: url('/cloning/banner-bg\ \(3\).jpg');">
+    <header class=" text-white pt-10 pb-10">
 
-        <p>Lugx gaming is a free bootstrap html5 css website template for your gaming website  you can download and use this layout for commercial purpose ! please tell our friend about this template</p>
-        
-        <div></div>
-      
-        </div>
-        <div class="mb-6">
-            <img src="photo-1586325194227-7625ed95172b.avif" alt="" class="h-46 w-46 border-2 border-gray-500 rounded-xl">
-        </div>
-      
-     
+        <nav class="flex items-center justify-between mx-auto w-[92%]">
+            <div>
+                <img src="/cloning//logo.png" alt="LUGX logo">
+            </div>
+            <div class="flex gap-[4vw] items-center mr-14">
+               
+                    <a href="#" class="hover:border hover:border-blue-500 hover:rounded-lg transition duration-300 p-2">Home</a>
+                    <a href="#" class="hover:border hover:border-blue-500 hover:rounded-lg transition duration-300 p-2 ">Our Shop</a>
+                    <a href="#" class="hover:border hover:border-blue-500 hover:rounded-lg transition duration-300 p-2">Product Details</a>
+                    <a href="#" class="hover:border hover:border-blue-500 hover:rounded-lg transition duration-300 p-2">Contact Us</a>
+                    <button class="bg-[#EE626B] rounded-[30%] px-4 py-2 font-semibold uppercase ">Sign in</button>
+            
+            </div>
+             </nav>
+</header>
+<!--Hero section-->
+<div class=" flex  justify-between  p-6 mt-14 mx-auto w-[92%]">
+    <!--Text content-->
+<div class="w-1/2 text-white">
+    <h4 class="font-semibold text-xl mt-4">WELCOME TO LUGX</h4>
+    <h2 class="font-bold text-5xl mt-7">BEST GAMING SITE EVER!</h2>
+    <img src="" alt="">
+    <p class="mt-16">LUGX Gaming is free Bootstrap 5 HTML CSS website template for your gaming websites.You can download and use this layout for commercial purposes.Please tell your friends about TemplateMo</p>
+<!--Search bar-->
+<div class=" relative flex -space-x-7 mt-16">
+    <input type="text" placeholder="Type Something" class="pl-6 pr-10 pt-1 pb-1 rounded-full">
+    <button class="bg-[#EE626B] pl-4 pr-4 pt-2 pb-2 rounded-full">Search now</button>
     </div>
-  </div>
+</div>
 
-  <!-- Flexbox Section -->
-  <div class="max-w-7xl mx-auto px-4 py-10">
-    <div class="flex items-center justify-center mx-auto w-[92%] h-[10px] gap-10">
-      <!-- Item 1 -->
-      <div class="bg-white rounded-3xl px-16 py-10 ">
-      <img src="" alt="">
-        <h2 class="text-lg font-bold">free storage</h2>
-       
-      </div>
-      <div class="bg-white rounded-3xl px-16 py-10 ">
-        <img src="" alt="">
-        <h2 class="text-lg font-bold">User normal</h2>
-      
-      </div>
-     
-      <div class="bg-white rounded-3xl px-16 py-10 ">
-        <img src="" alt="">
-        <h2 class="text-lg font-bold">Reply ready</h2>
-     
-      </div>
-      <div class="bg-white rounded-3xl px-16 py-10 ">
-        <img src="" alt="">
-        <h2 class="text-lg font-bold">Easy Layout</h2>
-      
-      </div>
+<!--Image content-->
+<div class="relative">
+    <img src="/cloning/photo-1586325194227-7625ed95172b.avif" alt="hero image" class="rounded-[50px] h-auto w-96 ">
+    <span class="absolute right-[30px] top-[20px] bg-[#1B7FFA] rounded-[30px] pt-2 pb-2 pl-3 pr-3 text-white font-bold text-xl">$22</span>
+    <span class="absolute top-[410px] left-[-30px] rounded-full w-24 h-24 bg-[#EE626B] pt-7 pb-7 pl-3 pr-3 font-bold text-white text-3xl">-40%</span>
+</div>
+</div>
+</div>
+<!--Features Section-->
+
+<div class="flex items-center justify-center mx-auto w-[92%] h-[10px] gap-10">
+    <a href="#" class="bg-white rounded-3xl px-16 py-10 ">
+       <img src="images/featured-01.png" alt="" class="bg-[#1B7FFA] rounded-full px-4 py-4 w-20 h-20 hover:bg-[#EE626B]">
+        <p class="font-bold  uppercase mt-4">Free storage</p>
+    
+    </a>
+    <a href="#" class="bg-white rounded-3xl px-16 py-10 ">
+       <img src="/images/featured-02.png" alt="" class="bg-[#1B7FFA] rounded-full px-4 py-4 w-20 h-20 hover:bg-[#EE626B]">
+        <p class="font-bold  uppercase mt-4">User more</p>
+    
+    </a>
+    <a href="#" class="bg-white rounded-3xl px-16 py-10 ">
+       <img src="/images/featured-03.png" alt="" class="bg-[#1B7FFA] rounded-full px-4 py-4 w-20 h-20 hover:bg-[#EE626B]">
+        <p class="font-bold  uppercase mt-4">Reply ready</p>
+    
+    </a>
+    <a href="#" class="bg-white rounded-3xl px-16 py-10 ">
+       <img src="/images/featured-04.png" alt="" class="bg-[#1B7FFA] rounded-full px-4 py-4 w-20 h-20 hover:bg-[#EE626B]">
+        <p class="font-bold  uppercase mt-4">Easy layout</p>
+    
+    </a>
     </div>
-  </div>
+    <!--Trending Games section-->
+    <div class=" relative mt-28 mx-auto w-[92%]">
+<h6 class="text-[#EE626B] text-[15px] uppercase font-bold">Trending</h6>
+<h3 class="mt-6  font-bold text-3xl">Trending Games</h3>
+<div class="flex justify-center mt-10 gap-6">
+    <a href="#" >
+        <img src="/images/trending-01.jpg" alt="" class="rounded-[30px]">
+        <span class="absolute top-[140px] right-[900px] bg-[#1B7FFA] px-3 py-2 rounded-[15px] text-white">
+        <p class="line-through text-sm ">$28 <p class="font-bold text-xl">$20</p></p></span>
+        <div class="flex items-center m-4 justify-center gap-16">
+            <p>Action <br><span class="font-bold">Assassin Creed</span></p>
+       <img src="/images/shopping-bag (2).png" alt="" class="w-10 h-10 bg-[#EE626B] p-3 rounded-full">
+    </div>
+    </a>
+
+    <a href="#">
+        <img src="/images/trending-02.jpg" alt="" class="rounded-[30px]">
+        <p class="absolute top-[140px] right-[610px] bg-[#1B7FFA] px-3 py-2 rounded-[15px] text-white font-bold text-xl">$44</p>
+        <div class="flex items-center m-4 justify-center gap-16">
+            <p>Action <br><span class="font-bold">Assassin Creed</span></p>
+       <img src="/images/shopping-bag (2).png" alt="" class="w-10 h-10 bg-[#EE626B] p-3 rounded-full">
+    </div>
+    </a>
+
+    <a href="#">
+        <img src="/images/trending-03.jpg" alt="" class="rounded-[30px]">
+        <span class="absolute top-[140px] right-[310px] bg-[#1B7FFA] px-3 py-2 rounded-[15px] text-white">
+        <p class="line-through text-sm">$64 <p class="font-bold text-xl">$44</p></p></span>
+        <div class="flex items-center m-4 justify-center gap-16">
+            <p>Action <br><span class="font-bold">Assassin Creed</span></p>
+       <img src="/images/shopping-bag (2).png" alt="" class="w-10 h-10 bg-[#EE626B] p-3 rounded-full">
+    </div>
+    </a>
+
+    <a href="#">
+        <img src="/images/trending-04.jpg" alt="" class="rounded-[30px]">
+        <p class="absolute top-[140px] right-[15px] bg-[#1B7FFA] px-3 py-2 rounded-[15px] text-white font-bold text-xl">$32</p>
+        <div class="flex items-center m-4 justify-center gap-16">
+            <p>Action <br><span class="font-bold">Assassin Creed</span></p>
+       <img src="/images/shopping-bag (2).png" alt="" class="w-10 h-10 bg-[#EE626B] p-3 rounded-full">
+    </div>
+    </a>
+</div>
+    </div>
 </body>
 </html>
